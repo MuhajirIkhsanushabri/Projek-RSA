@@ -26,7 +26,7 @@ def inputPQ():
 		return inputPQ()
 def pubKey(y):
 	global e
-	print ("\nMenentukan Public Key (e)")
+	print ("\nMenentukan Public Key (e,N)")
 	for x in range(2, y):
 		if math.gcd(x,QN) == 1:
 			e_avail.append(x)
