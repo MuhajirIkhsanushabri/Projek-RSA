@@ -7,8 +7,8 @@ def cekPrima(num):
 		for i in range (2,num):
 			if num%i == 0: #Bilangan bisa dibagi bilangan lain
 				return 0
-			else: #Bilangan Prima
-				return 1
+		else: #Bilangan Prima
+			return 1
 	else: #Bilangan minus, 0 atau 1
 		return 0
 def inputPQ():
